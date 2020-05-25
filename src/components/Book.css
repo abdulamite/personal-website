@@ -1,0 +1,16 @@
+.book {
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.book-image>img{
+    width: auto;
+    height: 12rem;
+    margin-bottom: 1rem;
+}

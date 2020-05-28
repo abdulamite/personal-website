@@ -5,7 +5,7 @@ export default function Project(prop) {
   return (
     <div className="project">
       <h3>
-        <a href={prop.project.link} target="_blank">
+        <a href={prop.project.link} target="_blank" rel="noopener noreferrer">
           {prop.project.title}
         </a>
       </h3>
@@ -13,8 +13,8 @@ export default function Project(prop) {
       <div className="tools">
         <span>Built With:</span>
         <ul>
-          {prop.project.tools.map((tool) => {
-            return <li>{tool}</li>;
+          {prop.project.tools.map((tool, index) => {
+            return <li key={index}>{tool}</li>;
           })}
         </ul>
       </div>

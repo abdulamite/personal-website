@@ -57,7 +57,7 @@ export default function App() {
         <div className="head">
           <img
             src="https://avatars0.githubusercontent.com/u/7246246?s=460&u=e3c39dc66c0f6eeed7da359385c9a1af86dd233f&v=4"
-            alt="profile photo"
+            alt="My awkward face"
           />
           <div className="head-title">
             <h1>Abdul Shaikh</h1>
@@ -73,6 +73,7 @@ export default function App() {
             <a
               href="https://www.google.com/maps/place/Pasadena,+CA/data=!4m2!3m1!1s0x80c2c2dc38330b51:0x52b41161ad18f4a?sa=X&ved=2ahUKEwiMhe-Y8M3pAhWzoFsKHTEpBdIQ8gEwAHoECAsQAQ"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Pasadena, CA
             </a>
@@ -86,37 +87,48 @@ export default function App() {
         </div>
         <div className="projects">
           <h2>🏗 Projects: </h2>
-          {projects.map((project) => {
-            return <Project project={project} />;
+          {projects.map((project, index) => {
+            return <Project project={project} key={index} />;
           })}
         </div>
         <div className="books">
           <h2>📖 Books I love:</h2>
           <div className="books-flex-container">
-            {books.map((book) => {
-              return <Book book={book} />;
+            {books.map((book, index) => {
+              return <Book book={book} key={index} />;
             })}
           </div>
         </div>
         <div className="socials">
-          <h2>🧑‍💻 Socials:</h2>
+          <h2>🧑‍💻 @ Me:</h2>
+          <div className="contact-form">
+          </div>
           <ul>
             <li>
-              <a href="https://twitter.com/AbdulIsBomb" target="_blank">
-                <TiSocialTwitter />
+              <a
+                href="https://twitter.com/AbdulIsBomb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TiSocialTwitter size={20} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/abdulamite" target="_blank">
-                <TiSocialGithub />
+              <a
+                href="https://github.com/abdulamite"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TiSocialGithub size={20} />
               </a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/abdul-shaikh-7a9583114/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
-                <TiSocialLinkedin />
+                <TiSocialLinkedin size={20} />
               </a>
             </li>
           </ul>

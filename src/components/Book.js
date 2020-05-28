@@ -8,7 +8,7 @@ export default function Book(props) {
         <img src={props.book.image} alt="" />
       </div>
       <div className="book-info">
-        <a href={props.book.link} target="_blank">{props.book.title}</a>
+        <a href={props.book.link} target="_blank" rel="noopener noreferrer">{props.book.title}</a>
       </div>
     </div>
   );

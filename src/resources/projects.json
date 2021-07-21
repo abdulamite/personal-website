@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Release Notes Manager UI",
+      "summary": "Application concept to have product owners manage release notes publication",
+      "tools": ["React"],
+      "link": "https://github.com/abdulamite/release-notes-ui"
+    },
+    {
+      "title": "Phoney Kiosk",
+      "summary": "Simple VueJS frontend to rewrite the QLess Kiosk Application to a dynamic form. The original project was built using KnockoutJS, though with this refactor, the codebase would be much slimmer, more accessible, and much easier to test.",
+      "tools": ["Vuejs", "QLess API"],
+      "link": "https://github.com/abdulamite/PhoneyKiosk"
+    },
+    {
+      "title": "Montebello Historical Society",
+      "summary": "I worked as a freelance web developer to redesign and develop the Montebello Historical Society Website to create a more responsive, dynamic, and accessible site.",
+      "link": "https://montebellohistoricalsociety.org/",
+      "tools": ["Netlify", "Jekyll", "Firebase"]
+    },
+    {
+      "title": "To Do list",
+      "summary": "This is just a simple todo list app that basically every frontend developer has built at somepoint.",
+      "link": "https://sad-perlman-1a6469.netlify.app/",
+      "tools": ["Netlify", "Vuejs"]
+    }
+  ]
+}

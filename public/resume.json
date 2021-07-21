@@ -1,0 +1,140 @@
+{
+    "name": "Abdul Shaikh",
+    "address": {
+        "country": "United States",
+        "state": "CA",
+        "city": "Pasadena",
+        "ZIP": 91101
+    },
+    "contact": {
+        "website": "https://abdulamite.dev/",
+        "email": "abdulamite@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/abdul-shaikh-7a9583114/",
+        "github": "https://github.com/abdulamite",
+        "twitter": "https://twitter.com/abdulisbomb"
+    },
+    "education": {
+        "degree": "Bachelor's of science",
+        "major": "Computer Science",
+        "completed": "2017-05-13"
+    },
+    "proficiant_languages": [
+        "HTML5",
+        "CSS3",
+        "JavaScript ES6/Node",
+        "KnockoutJS",
+        "React",
+        "VueJS",
+        "ExpressJS",
+        "MYSQL"
+    ],
+    "favortie_tools": [
+        "GitHub + Github Actions",
+        "Netlify",
+        "Firebase",
+        "AWS S3",
+        "VS Code",
+        "Insomnia",
+        "Hyper Terminal",
+        "MongoDB Compass"
+    ],
+    "experience": [
+        {
+            "title": "Frontend Developer",
+            "company": "QLess",
+            "address": {
+                "country": "United States",
+                "state": "CA",
+                "city": "Pasadena",
+                "street": "150 S Los Robles Ave #900",
+                "ZIP": 91101
+            },
+            "start": "2019-07-15",
+            "responsibilities": [
+                "Work to Plan/Develop/Debug/Improve/Document the various frontend applications (Kiosk, Customer Engagement Center, Monitor, Calendar, Command Center, Reports)",
+                "Lead TechRadar session to introduce new tools to the platform and improve developer culture",
+                "Overhaul application performance through using Flux patterns",
+                "Developed Calendar integration UI to link Outlook Calendar with QLess Calendar",
+                "Work with customers and product team to plan new features",
+                "Lead trainings with support team to review new UI features",
+                "Develop new application UI using KnockoutJS",
+                "Collaborate with the backend team to assist with API design",
+                "Currently developing Release notes management application so PO can create release notes without having to include it during build phase",
+                "Document legacy code base"
+            ]
+        },
+        {
+            "title": "Support Engineer",
+            "company": "QLess",
+            "address": {
+                "country": "United States",
+                "state": "CA",
+                "city": "Pasadena",
+                "street": "150 S Los Robles Ave #900",
+                "ZIP": 91101
+            },
+            "start": "2018-04-20",
+            "end": "2019-07-15",
+            "responsibilities": [
+                "Troubleshoot the various QLess applications while providing excellent customer service with Zendesk Support",
+                "Update customer configurations in the MySQL database",
+                "Generating actionable custom reports for customers using the MySQL database",
+                "Modify application styles to match customer design language",
+                "Troubleshoot application issues by researching logs in Kibana",
+                "Configure and troubleshoot SMS services using Twilio",
+                "Identify/Reproduce/Escalate bugs to the engineering team",
+                "Author application training materials in Zendesk Guide"
+            ]
+        },
+        {
+            "title": "Instructional Technologies Consultant, eLearning",
+            "company": "Cal Poly Pomona",
+            "address": {
+                "country": "United States",
+                "state": "CA",
+                "city": "Pomona",
+                "street": "3801 W Temple Ave",
+                "ZIP": 91768
+            },
+            "start": "2017-10-15",
+            "end": "2018-04-15",
+            "responsibilities": [
+                "Support campus Learning Management System (Blackboard) to provide support for faculty",
+                "Respond to faculty tickets to resolve LMS issues via ServiceNow",
+                "Assist faculty in online course redesign and course development",
+                "Edit faculty instructional videos",
+                "Webmaster for Cal Poly Pomona CSU Symposium at http://www.cpp.edu/~csusymposium"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Phoney Kiosk",
+            "summary": "Simple VueJS frontend to rewrite the QLess Kiosk Application to a dynamic form. The original project was built using KnockoutJS, though with this refactor, the codebase would be much slimmer, more accessible, and much easier to test.",
+            "tools": [
+                "Vuejs",
+                "QLess API"
+            ],
+            "link": "https://github.com/abdulamite/PhoneyKiosk"
+        },
+        {
+            "title": "Montebello Historical Society",
+            "summary": "I worked as a freelance web developer to redesign and develop the Montebello Historical Society Website to create a more responsive, dynamic, and accessible site.",
+            "link": "https://montebellohistoricalsociety.org/",
+            "tools": [
+                "Netlify",
+                "Jekyll",
+                "Firebase"
+            ]
+        },
+        {
+            "title": "To Do list",
+            "summary": "This is just a simple todo list app that basically every frontend developer has built at somepoint.",
+            "link": "https://sad-perlman-1a6469.netlify.app/",
+            "tools": [
+                "Netlify",
+                "Vuejs"
+            ]
+        }
+    ]
+}

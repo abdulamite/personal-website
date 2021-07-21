@@ -1,0 +1,19 @@
+{
+    "books": [
+        {
+            "title": "Brotopia",
+            "link": "https://www.amazon.com/Brotopia-Breaking-Boys-Silicon-Valley/dp/0735213534",
+            "image": "https://m.media-amazon.com/images/I/51w+bH2qzYL.jpg"
+        },
+        {
+            "title": "Eloquent JavaScript",
+            "link": "https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming-ebook/dp/B07C96Q217/ref=sr_1_1?crid=1GSUPPVJ1LNRJ&dchild=1&keywords=eloquent+javascript&qid=1590383931&s=books&sprefix=Eloqu%2Cstripbooks%2C215&sr=1-1",
+            "image": "https://m.media-amazon.com/images/I/51-5ZXYtcML.jpg"
+        },
+        {
+            "title": "Plant of the Apes",
+            "link": "https://www.amazon.com/Planet-Apes-Pierre-Boulle/dp/0345447980",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51caPObAIQL._SX301_BO1,204,203,200_.jpg"
+        }
+    ]
+}

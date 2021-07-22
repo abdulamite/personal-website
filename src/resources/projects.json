@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "Wedding Website",
+      "summary": "I recently got married in June, and I needed a place for all of my guests to RSVP, and learn more about the event. I didn't like a lot of the available options and decided to make my own!",
+      "tools": ["React"],
+      "link": "https://brittaniandabdul.com/"
+    },
+    {
       "title": "Release Notes Manager UI",
       "summary": "Application concept to have product owners manage release notes publication",
       "tools": ["React"],

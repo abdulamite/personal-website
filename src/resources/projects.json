@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "MineSweeper",
+      "summary": "This was a project that was done as part of a take home for another company, but I was still happy with how it came out. This was the first time I had built a game before so it was a fun challange.",
+      "tools": ["React"],
+      "link": "https://loving-babbage-67393e.netlify.app/"
+    },
+    {
       "title": "Wedding Website",
       "summary": "I recently got married in June, and I needed a place for all of my guests to RSVP, and learn more about the event. I didn't like a lot of the available options and decided to make my own!",
       "tools": ["React"],
